@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="Pr_Form2.css">
 </head>
+
 <body>
     <form action="Pr_Form1.js">
         <h1>Student Registration Form</h1>
@@ -16,7 +18,7 @@
 
         <div>
             <label for="fname">Student Name: </label>
-            <input type="text" placeholder="First Name" id="fname" name="fname"> - 
+            <input type="text" placeholder="First Name" id="fname" name="fname"> -
             <input type="text" placeholder="Last Name" id="lname" name="lname">
 
         </div><br>
@@ -29,15 +31,15 @@
 
         <div>
             <label for="dob">Date of Birth: </label>
-            <input type="text" id="dob" name="dob" size="3" placeholder="Day"> - 
-            <input type="text" id="dob" name="dob" size="3" placeholder="Month"> - 
+            <input type="text" id="dob" name="dob" size="3" placeholder="Day"> -
+            <input type="text" id="dob" name="dob" size="3" placeholder="Month"> -
             <input type="text" id="dob" name="dob" size="5" placeholder="Year">
             <span><i>(DD-MM-YYYY)</i></span>
         </div><br>
 
         <div>
             <label for="mob">Mobile No: </label>
-            <input type="text" placeholder="+88" size="2"> - 
+            <input type="text" placeholder="+88" size="2"> -
             <input type="text">
         </div><br>
 
@@ -59,12 +61,19 @@
         </div><br>
 
         <div>
-            <label for="dept">Department: </label>
-            <input type="checkbox" name="dept1" value="CSE" id="dept"> CSE
-            <input type="checkbox" name="dept1" value="IT" id="dept"> IT
-            <input type="checkbox" name="dept1" value="ECE" id="dept"> ECE
-            <input type="checkbox" name="dept1" value="Civil" id="dept"> Civil
-            <input type="checkbox" name="dept1" value="Mech" id="dept"> Mech
+            <label for="d">Department: </label>
+            <input type="checkbox" name="dept" value="CSE" id="dept">
+            <label for="dept">CSE</label>
+            <input type="checkbox" name="dept1" value="IT" id="dept1">
+            <label for="dept1">IT</label>
+            <input type="checkbox" name="dept2" value="ECE" id="dept2"> ECE
+            <label for="dept2">CSE</label>
+            <input type="checkbox" name="dept3" value="Civil" id="dept3"> Civil
+            <label for="dept3">CSE</label>
+
+            <input type="checkbox" name="dept4" value="Mech" id="dept4"> Mech
+            <label for="dept4">CSE</label>
+
         </div><br>
 
         <div>
@@ -87,10 +96,10 @@
             <label for="city">City</label>
             <input type="text" id="city" name="city">
         </div><br>
-        
+
         <div>
             <label for="address">Address: </label>
-            <textarea ></textarea>
+            <textarea></textarea>
         </div><br>
 
         <div>
@@ -99,4 +108,5 @@
 
     </form>
 </body>
+
 </html>
