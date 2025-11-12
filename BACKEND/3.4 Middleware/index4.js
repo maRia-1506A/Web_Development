@@ -4,6 +4,7 @@ import {fileURLToPath} from "url"; //convert url to normal file path
 import bodyParser from "body-parser";
 
 const __dirname= dirname(fileURLToPath(import.meta.url))
+
 const app = express();
 const port = 3000;
 var bandName="";
@@ -29,3 +30,4 @@ app.post("/submit", (req, res)=>{
 app.listen(port, () => {
   console.log(`Listening on port ${port}`);
 });
+

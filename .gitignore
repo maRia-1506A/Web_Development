@@ -1,46 +1,195 @@
-# Node.js dependencies
+# -------------------------------
+# OS-specific files
+# -------------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# -------------------------------
+# Dependency directories
+# -------------------------------
 node_modules/
+vendor/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.class
+*.jar
+*.war
+*.ear
+*.dll
+*.so
+*.dylib
+*.exe
+
+# -------------------------------
+# Build and distribution
+# -------------------------------
+dist/
+build/
+bin/
+obj/
+out/
+target/
+release/
+debug/
+*.o
+*.obj
+*.a
+*.lib
+*.elf
+*.hex
+
+# -------------------------------
+# Environment and config files
+# -------------------------------
+.env
+.env.*
+*.local
+*.secret
+*.key
+*.pem
+*.crt
+*.csr
+
+# -------------------------------
+# Logs and reports
+# -------------------------------
+logs/
+*.log
+*.out
+*.err
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+lerna-debug.log*
+coverage/
+test-output/
+*.coverage
+*.lcov
 
-# Build output
-dist/
-build/
-.next/          # Next.js
-out/            # Next.js static export
-.nuxt/          # Nuxt.js
-.svelte-kit/    # SvelteKit
+# -------------------------------
+# Cache and temporary files
+# -------------------------------
+.cache/
+.parcel-cache/
+.vite/
+.next/
+.nuxt/
+.svelte-kit/
+.gradle/
+.mypy_cache/
+pytest_cache/
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.old
+*.orig
+*.save
+*.class
+*.iml
 
-# VS Code settings
+# -------------------------------
+# IDEs and editors
+# -------------------------------
 .vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.user
+*.workspace
 *.code-workspace
 
-# OS-specific files
-.DS_Store
-Thumbs.db
+# -------------------------------
+# Version control / package managers
+# -------------------------------
+.git/
+.gitignore
+.gitmodules
+.hg/
+.svn/
+CVS/
 
-# Environment files
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# -------------------------------
+# OS package managers and tools
+# -------------------------------
+pip-wheel-metadata/
+*.egg-info/
+.eggs/
+*.whl
+*.deb
+*.rpm
+*.pkg
+*.tar.gz
+*.zip
+*.7z
 
-# Logs
-logs
+# -------------------------------
+# Miscellaneous
+# -------------------------------
+*.lock
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+composer.lock
+poetry.lock
+
+# -------------------------------
+# Data / Output
+# -------------------------------
+*.csv
+*.tsv
+*.sqlite
+*.db
 *.log
+*.jsonl
+*.pickle
+*.h5
+*.pkl
 
-# Temporary files
+# -------------------------------
+# Temporary backups
+# -------------------------------
+*~
 *.tmp
+*.temp
+*.bak
 *.swp
 *.swo
 
-# Coverage reports
-coverage/
+# -------------------------------
+# JetBrains (IntelliJ, PyCharm, WebStorm)
+# -------------------------------
+.idea/
+*.iml
+out/
 
-# Cache
-.cache/
-.parcel-cache/
-.next/cache/
+# -------------------------------
+# Visual Studio
+# -------------------------------
+.vs/
+*.dbmdl
+*.VC.db
+*.pdb
+*.idb
+*.ipch
+*.opendb
+
+# -------------------------------
+# MacOS
+# -------------------------------
+.AppleDouble
+.LSOverride
+._*
